@@ -1,5 +1,10 @@
 FROM alpine:3.17 as dep
 
+LABEL org.opencontainers.image.source=https://github.com/neonxp/base
+LABEL org.opencontainers.image.description="NeonXP Base image"
+LABEL org.opencontainers.image.licenses=MIT
+LABEL org.opencontainers.image.authors="Alexander Kiryukhin <i@neonxp.dev>"
+
 ENV USER=docker
 ENV UID=10001 
 
